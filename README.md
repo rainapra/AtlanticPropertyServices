@@ -90,7 +90,7 @@
     <div class="container">
         <h1>Capital Luxury Condominiumns</h1>
         <div class="property-image">
-            <img src="C:\Users\Owner\Downloads\Atlantic Property Services\Images\pool.jpg" alt="Property Image">
+            <img src="pool.jpg">
         </div>
         <div class="property-info">
             <div class="property-details">
