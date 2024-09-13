@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,20 +35,29 @@
             border-radius: 8px;
             margin-bottom: 20px;
         }
+        .about-us {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .about-us h2 {
+            color: #444;
+        }
+        .about-us p {
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
         .property-info {
             display: flex;
             justify-content: space-between;
             margin-top: 20px;
         }
-        .property-details, .price-list, .facilities {
-            width: 30%;
+        .price-list, .facilities {
+            width: 48%;
             padding: 10px;
         }
-        .property-details h2, .price-list h2, .facilities h2 {
+        .price-list h2, .facilities h2 {
             color: #444;
-        }
-        .property-details p {
-            line-height: 1.6;
         }
         .price-list ul, .facilities ul {
             list-style-type: none;
@@ -92,30 +102,32 @@
 </head>
 <body>
     <div class="container">
-        <h1>Capital Luxury Condominiumns</h1>
+        <h1>Capital Luxury Condominiums</h1>
         <div class="property-image">
-            <img src="pool.jpg">
-            <img src="hall.jpg">
-            <img src="Bedroom.jpg">
-            <img src="kitchen.jpg">
+            <img src="pool.jpg" alt="Swimming pool image">
+            <img src="hall.jpg" alt="Hall image">
+            <img src="Bedroom.jpg" alt="Bedroom image">
+            <img src="kitchen.jpg" alt="Kitchen image">
         </div>
+        <!-- About Us Section Above -->
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p>This property is located in the heart of the Tallahassee city, offering comfortable apartments and excellent service.
+               You won't believe the space in our 1-, 2- and 3-bedroom apartment homes! Located just minutes from FAMU and FSU, our spacious renovated apartments 
+               feature first class amenities like generous walk-in closets, large living areas, full size washer/dryers, private bathrooms, private pantry and so                    
+               much more. Short term lease options are also available. Our 5000 square foot Clubhouse is the social scene of the community, featuring a movie   
+               theater, game room, hi-energy dance studio, business center, and of course, the Resort-Style swimming pool!
+               All rental rates include 24-Hour Emergency Maintenance. We are also Pet Friendly!
+            </p>
+        </div>
+        <!-- Room Prices and Facilities Side by Side -->
         <div class="property-info">
-            <div class="property-details">
-                <h2>About Us</h2>
-                <p>This property is located in the heart of the Tallahassee city, offering comfortable apartments and excellent service.
-                   You won't believe the space in our 1-, 2- and 3-bedroom apartment homes! Located just minutes from FAMU and FSU, our spacious renovated apartments 
-                   feature first class amenities like generous walk-in closets, large living areas, full size washer/dryers, private bathrooms, private pantry and so                    
-                   much more. Short term lease options are also available. Our 5000 square foot Clubhouse is the social scene of the community, featuring a movie   
-                   theater, game room, hi-energy dance studio, business center, and of course, the Resort-Style swimming pool!
-                   All rental rates include 24-Hour Emergency Maintenance. We are also Pet Friendly!
-                </p>
-            </div>
             <div class="price-list">
                 <h2>Room Prices</h2>
                 <ul>
-                    <li>3Bedrooms 3Bathrooms(3BR3B): $1400/month</li>
-                    <li>2Bedrooms 2Bathrooms(2BR2B): $1200/month</li>
-                    <li>1Bedroom  1Bathroom(1BR1B): $1000/month</li>
+                    <li>3Bedrooms 3Bathrooms (3BR3B): $1400/month</li>
+                    <li>2Bedrooms 2Bathrooms (2BR2B): $1200/month</li>
+                    <li>1Bedroom  1Bathroom (1BR1B): $1000/month</li>
                 </ul>
             </div>
             <div class="facilities">
