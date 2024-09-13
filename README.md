@@ -24,7 +24,7 @@
             color: #333;
         }
         .property-image img {
-            width: 100%;
+            width: 50%;
             height: auto;
             border-radius: 8px;
             margin-bottom: 20px;
@@ -90,6 +90,7 @@
         <h1>Capital Luxury Condominiumns</h1>
         <div class="property-image">
             <img src="pool.jpg">
+            <img src="hall.jpg">
         </div>
         <div class="property-info">
             <div class="property-details">
