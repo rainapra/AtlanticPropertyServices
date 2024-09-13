@@ -90,7 +90,7 @@
     <div class="container">
         <h1>Capital Luxury Condominiumns</h1>
         <div class="property-image">
-            <img src="pool.jpg">
+            <img src="main\pool.jpg">
         </div>
         <div class="property-info">
             <div class="property-details">
