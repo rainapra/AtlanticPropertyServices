@@ -87,14 +87,11 @@
     </style>
 </head>
 <body>
-
     <div class="container">
         <h1>Capital Luxury Condominiumns</h1>
-
         <div class="property-image">
             <img src="C:\Users\Owner\Downloads\Atlantic Property Services\Images\pool.jpg" alt="Property Image">
         </div>
-
         <div class="property-info">
             <div class="property-details">
                 <h2>About Us</h2>
@@ -106,7 +103,6 @@
                    All rental rates include 24-Hour Emergency Maintenance. We are also Pet Friendly!
                 </p>
             </div>
-
             <div class="price-list">
                 <h2>Room Prices</h2>
                 <ul>
@@ -115,7 +111,6 @@
                     <li>1Bedroom  1Bathroom(1BR1B): $1000/month</li>
                 </ul>
             </div>
-
             <div class="facilities">
                 <h2>Facilities</h2>
                 <ul>
@@ -126,11 +121,9 @@
                 </ul>
             </div>
         </div>
-
         <div class="link">
             <a href="https://www.apartments.com/3000-s-adams-st-tallahassee-fl-unit-232/c2bz3be/" target="_blank">Visit Property Website</a>
         </div>
-
         <div class="contact-info">
             <h2>Contact Information</h2>
             <p><strong>Phone:</strong> +18507024089</p>
@@ -138,7 +131,6 @@
             <p><strong>Address:</strong> 3000 S Adams Street, Tallahassee, Florida-32301</p>
         </div>
     </div>
-
 </body>
 </html>
 
