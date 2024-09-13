@@ -23,8 +23,13 @@
             text-align: center;
             color: #333;
         }
+        .property-image {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
         .property-image img {
-            width: 50%;
+            width: 100%;
             height: auto;
             border-radius: 8px;
             margin-bottom: 20px;
