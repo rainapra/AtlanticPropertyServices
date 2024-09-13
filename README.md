@@ -91,6 +91,8 @@
         <div class="property-image">
             <img src="pool.jpg">
             <img src="hall.jpg">
+            <img src="Bedroom.jpg">
+            <img src="kitchen.jpg">
         </div>
         <div class="property-info">
             <div class="property-details">
