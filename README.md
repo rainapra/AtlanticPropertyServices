@@ -1,2 +1,144 @@
-# Atlanticprop
-Webpage to see property details
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Property Details">
+    <title>Property Details</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .property-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .property-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .property-details, .price-list, .facilities {
+            width: 30%;
+            padding: 10px;
+        }
+        .property-details h2, .price-list h2, .facilities h2 {
+            color: #444;
+        }
+        .property-details p {
+            line-height: 1.6;
+        }
+        .price-list ul, .facilities ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .price-list ul li, .facilities ul li {
+            background-color: #f0f0f0;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .link a {
+            text-decoration: none;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .link a:hover {
+            background-color: #0056b3;
+        }
+        .contact-info {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .contact-info h2 {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Capital Luxury Condominiumns</h1>
+
+        <div class="property-image">
+            <img src="C:\Users\Owner\Downloads\Atlantic Property Services\Images\pool.jpg" alt="Property Image">
+        </div>
+
+        <div class="property-info">
+            <div class="property-details">
+                <h2>About Us</h2>
+                <p>This property is located in the heart of the Tallahassee city, offering comfortable apartments and excellent service.
+                   You won't believe the space in our 1-, 2- and 3-bedroom apartment homes! Located just minutes from FAMU and FSU, our spacious renovated apartments 
+                   feature first class amenities like generous walk-in closets, large living areas, full size washer/dryers, private bathrooms, private pantry and so                    
+                   much more. Short term lease options are also available. Our 5000 square foot Clubhouse is the social scene of the community, featuring a movie   
+                   theater, game room, hi-energy dance studio, business center, and of course, the Resort-Style swimming pool!
+                   All rental rates include 24-Hour Emergency Maintenance. We are also Pet Friendly!
+                </p>
+            </div>
+
+            <div class="price-list">
+                <h2>Room Prices</h2>
+                <ul>
+                    <li>3Bedrooms 3Bathrooms(3BR3B): $1400/month</li>
+                    <li>2Bedrooms 2Bathrooms(2BR2B): $1200/month</li>
+                    <li>1Bedroom  1Bathroom(1BR1B): $1000/month</li>
+                </ul>
+            </div>
+
+            <div class="facilities">
+                <h2>Facilities</h2>
+                <ul>
+                    <li>Gym Area</li>
+                    <li>Swimming Pool</li>
+                    <li>Game room</li>
+                    <li>Free Parking</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="link">
+            <a href="https://www.apartments.com/3000-s-adams-st-tallahassee-fl-unit-232/c2bz3be/" target="_blank">Visit Property Website</a>
+        </div>
+
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Phone:</strong> +18507024089</p>
+            <p><strong>Email:</strong> info@atlanticnowfl.com</p>
+            <p><strong>Address:</strong> 3000 S Adams Street, Tallahassee, Florida-32301</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
