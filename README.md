@@ -124,7 +124,7 @@
             <div class="price-list">
                 <h2>Room Prices</h2>
                 <ul>
-                    <li>3Bedrooms 3Bathrooms (3BR3B): $1400/month</li>
+                    <li>3Bedrooms 3Bathrooms (3BR3B): $1450/month</li>
                     <li>2Bedrooms 2Bathrooms (2BR2B): $1200/month</li>
                     <li>1Bedroom  1Bathroom (1BR1B): $1000/month</li>
                 </ul>
